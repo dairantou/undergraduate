@@ -79,12 +79,12 @@ foreach ($stmt as $row);
   	<a class="menu" id="menu"><span>MENU</span></a>
 		<div class="panel">   
     	<ul>
-    		<li class="active"><a href="toppage.html"><strong>トップページ</strong><span>Top</span></a></li>
-				<li><a href="self-help.html"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
-				<li><a href="Learn.html"><strong>学ぶ</strong><span>Learn</span></a></li>
-				<li><a href="Mypage.html"><strong>マイページ</strong><span>Mypage</span></a></li>
-				<li><a href="Simulationcp.html"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
-				<li class="last"><a href="Questionnaire-Contact.html"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
+    		<li class="active"><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
+				<li><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
+				<li><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
+				<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>
+				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
+				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
 			</ul>   
     </div>
 	</div> 
@@ -110,7 +110,7 @@ foreach ($stmt as $row);
 				<img src="images/study.jpg" width="260" height="113" alt="">
 				<h3>「自助」ってなんだ？</h3>
 				<p>災害の被害を小さくするために大切な「自助」という考え方とは?「自助」と家庭内備蓄品の関連性を説明します。</p>
-				<p class="readmore"><a href="self-help.html">詳細を確認する</a></p>
+				<p class="readmore"><a href="self-help.php">詳細を確認する</a></p>
       </div>
 		</article>
 		<article class="grid">
@@ -118,7 +118,7 @@ foreach ($stmt as $row);
       	<img src="images/study.jpg" width="260" height="113" alt="">
 				<h3>家庭内備蓄品にはどんなものがあるの？</h3>
 				<p>被災時に自宅避難で必要となる家庭内備蓄品について学んでいきます。</p><br>
-				<p class="readmore"><a href="Learn.html">詳細を確認する</a></p>
+				<p class="readmore"><a href="Learn.php">詳細を確認する</a></p>
       </div>
 		</article>
 	
@@ -128,7 +128,7 @@ foreach ($stmt as $row);
 	  <img src="images/simyu.jpg" width="260" height="113" alt="">
 			<h3>自宅避難時生活シミュレーション</h3>
 			<p>あなたの家庭の備蓄状況で自宅避難時にどのような生活を送れるのかを調べましょう。</p><br>
-			<p class="readmore"><a href="Simulationcp.html">詳細を確認する</a></p>
+			<p class="readmore"><a href="Simulationcp.php">詳細を確認する</a></p>
   </div>
 	</article>
 	</section>
@@ -143,15 +143,15 @@ foreach ($stmt as $row);
 		<div id="info" class="grid">
 			<!-- ロゴ -->
 			<div class="logo">
-				<a href="toppage.html">家庭内備蓄品について学ぼう<br /></a>
+				<a href="toppage.php">家庭内備蓄品について学ぼう<br /></a>
 			</div>
 			<!-- / ロゴ -->
 		</div>  
 		<!-- / 左側 -->
 		<!-- 右側 ナビゲーション -->
 		<ul class="footnav">
-			<li><a href="Questionnaire-Contact.html#about">本サイトについて</a></li>
-			<li><a href="Questionnaire-Contact.html#contact">お問い合わせ</a></li>
+			<li><a href="Questionnaire-Contact.php#about">本サイトについて</a></li>
+			<li><a href="Questionnaire-Contact.php#contact">お問い合わせ</a></li>
 			<li><a href="logout.php">ログアウト</a></li>
 		</ul>
 		<!-- / 右側 ナビゲーション -->
