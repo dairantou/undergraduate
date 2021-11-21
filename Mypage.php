@@ -96,21 +96,9 @@ foreach ($stmt as $row);
   <section id="main">
 
     <section class="content">
-		<h3 class="heading" id="about">ログイン状況</h3>
+		<h3 class="heading" id="about">家庭内備蓄品の備蓄状況の管理</h3>
 		<article>
-    <p>
-    <?php
-   if(strstr(h($_SESSION['EMAIL']),'s1810339@edu.cc.uec.ac.jp')){
-   //$text =h($_SESSION['EMAIL']);
-   //↓これでもよい
-    echo 'ようこそ' .  h($_SESSION['NAME']) . "さん<br>";
-	echo "<a href='logout.php'>ログアウトはこちら。</a>";
-   }else{
-    echo 'ちがいますよ' .  h($_SESSION['NAME']) ."テスト". "さん<br>";
-	echo "<a href='logout.php'>ログアウトはこちら。</a>";
-   }
-    ?>
-    </p>
+    <p>マイページでは</p>
 		</article>
 
 	</section>

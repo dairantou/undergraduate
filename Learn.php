@@ -61,15 +61,15 @@ foreach ($stmt as $row);
 	<div class="logo">
 		<a href="toppage.php">家庭内備蓄品について学ぼう</a>
 	</div>
-	<div class="logo_name">
+	<!--<div class="logo_name">
 	<?php
-	echo '<span>ようこそ' .  h($_SESSION['NAME']) . "さん</span>";
+	//echo '<span>ようこそ' .  h($_SESSION['NAME']) . "さん</span>";
 	?>
 	</div>
 	<br><br>
 	<div class="logo_logout">
 	<a href='logout.php'>ログアウトはこちら</a>
-	</div>
+	</div>-->
 	<!-- / ロゴ -->
 </header>
 
@@ -82,10 +82,11 @@ foreach ($stmt as $row);
 				<li><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
 				<li><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
 				<li class="active"><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
-				<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>
+				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
 				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
 				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
-				</ul> 
+				<li><a href="logout.php"><strong>ログアウト</strong><span>logout</span></a></li>	
+			</ul> 
     </div>
 	</div> 
 </nav>

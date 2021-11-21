@@ -44,8 +44,8 @@ if (isset($_SESSION['EMAIL'])) {
      <p>※半角英数字をそれぞれ１文字以上含んだ、８文字以上の文字列</p><br>
      <label for="repassword">パスワード(確認)</label><br>
      <input type="repassword" name="repassword" size="66.5"><br><br>
-     <label for="name">ニックネーム</label><br>
-     <input type="name" name="name" size="66.5"><br><br>
+     <!--<label for="name">ニックネーム</label><br>
+     <input type="name" name="name" size="66.5"><br><br>-->
      <button type="submit">新規登録</button><br><br>
      <p>学士研究のため、本システムの利用者を募集しております。<br>登録された個人情報は、研究目的以外の利用はいたしません。</p>
    </form>

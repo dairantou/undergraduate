@@ -82,9 +82,11 @@ return false;
 }
 //登録処理
 try {
-  $name = $_POST['name'];
-  $stmt = $pdo->prepare("insert into userDeta(email, password, name) value(?, ?, ?)");
-  $stmt->execute([$email, $password, $name]);
+  //$name = $_POST['name'];
+  //$stmt = $pdo->prepare("insert into userDeta(email, password, name) value(?, ?, ?)");
+  $stmt = $pdo->prepare("insert into userDeta(email, password) value(?, ?)");
+  //$stmt->execute([$email, $password, $name]);
+  $stmt->execute([$email, $password]);
   echo "<script type='text/javascript'>alert('新規アカウントが正常に登録されました。');</script>";
   //セッション変数のクリア
 $_SESSION = array();
