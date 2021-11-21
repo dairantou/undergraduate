@@ -115,47 +115,56 @@ foreach ($stmt as $row);
 
 			<dt>Q1.現在何人で暮らしていますか？</dt>
 			<dd>
-			<input type="tel" id="q1" maxlength="4" value="1"><label for="q1">[人]</label><br>
+			<?php
+			echo "<input type='tel' id='q1' maxlength='4' value=".$row['ans1']."><label for='q1'>[人]</label><br>"
+			?>
 			<br>
 			</dd>
 
             <dt>Q2.飲料水を何L備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q2' maxlength='4' value=".$row['test']."><label for='q2'>[L]</label><br>"
+			echo "<input type='tel' id='q2' maxlength='4' value=".$row['ans2']."><label for='q2'>[L]</label><br>"
 			?>
-			<!--<input type="tel" id="q2" maxlength="4" value="20"><label for="q2">[L]</label><br> -->
 			<br>
 			</dd>
 
             <dt>Q3.非常食を何食分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
-			<input type="tel" id="q3" maxlength="4"><label for="q3">[食分]</label><br>
+			<?php
+			echo "<input type='tel' id='q3' maxlength='4' value=".$row['ans3']."><label for='q3'>[食分]</label><br>"
+			?>
 			<br>
 			</dd>
 
 			<dt>Q4.ウェットボディタオルを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
-			<input type="tel" id="q4" maxlength="4"><label for="q4">[回分]</label><br>
+			<?php
+			echo "<input type='tel' id='q4' maxlength='4' value=".$row['ans4']."><label for='q4'>[回分]</label><br>"
+			?>
 			<br>
 			</dd>
 
             <dt>Q5.歯磨き用ウェットティッシュを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
-			<input type="tel" id="q5" maxlength="4"><label for="q5">[回分]</label><br>
+			<?php
+			echo "<input type='tel' id='q5' maxlength='4' value=".$row['ans5']."><label for='q5'>[回分]</label><br>"
+			?>
 			<br>
 			</dd>
 
             <dt>Q6.簡易トイレを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
-			<input type="tel" id="q6" maxlength="4"><label for="q6">[回分]</label><br>
+			<?php
+			echo "<input type='tel' id='q6' maxlength='4' value=".$row['ans6']."><label for='q6'>[回分]</label><br>"
+			?>
 			<br>
 			</dd>
 
 					<dt>Q7.トイレットペーパーを備蓄していますか？</dt>
 					<dd>
 					  <?php
-					  if($row['test']==1){
+					  if($row['ans7']==1){
 						echo "<label><input type='radio' name='q7' value='1' checked>はい</label>
 						<label><input type='radio' name='q7' value='0'>いいえ</label><br>";
 					  }else{
@@ -168,62 +177,132 @@ foreach ($stmt as $row);
 					<br>
                     <dt>Q8.ティッシュペーパーを備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q8" value="1" checked>はい</label>
-					  <label><input type="radio" name="q8" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans8']==1){
+						echo "<label><input type='radio' name='q8' value='1' checked>はい</label>
+						<label><input type='radio' name='q8' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q8' value='1'>はい</label>
+						<label><input type='radio' name='q8' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q9.救急箱を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q9" value="1" checked>はい</label>
-					  <label><input type="radio" name="q9" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans9']==1){
+						echo "<label><input type='radio' name='q9' value='1' checked>はい</label>
+						<label><input type='radio' name='q9' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q9' value='1'>はい</label>
+						<label><input type='radio' name='q9' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q10.カセットコンロ・カセットボンベをセットで備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q10" value="1" checked>はい</label>
-					  <label><input type="radio" name="q10" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans10']==1){
+						echo "<label><input type='radio' name='q10' value='1' checked>はい</label>
+						<label><input type='radio' name='q10' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q10' value='1'>はい</label>
+						<label><input type='radio' name='q10' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q11.携帯電話用充電器を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q11" value="1" checked>はい</label>
-					  <label><input type="radio" name="q11" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans11']==1){
+						echo "<label><input type='radio' name='q11' value='1' checked>はい</label>
+						<label><input type='radio' name='q11' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q11' value='1'>はい</label>
+						<label><input type='radio' name='q11' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q12.懐中電灯を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q12" value="1" checked>はい</label>
-					  <label><input type="radio" name="q12" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans12']==1){
+						echo "<label><input type='radio' name='q12' value='1' checked>はい</label>
+						<label><input type='radio' name='q12' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q12' value='1'>はい</label>
+						<label><input type='radio' name='q12' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q13.手回し充電式などのラジオを備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q13" value="1" checked>はい</label>
-					  <label><input type="radio" name="q13" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans13']==1){
+						echo "<label><input type='radio' name='q13' value='1' checked>はい</label>
+						<label><input type='radio' name='q13' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q13' value='1'>はい</label>
+						<label><input type='radio' name='q13' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q14.乾電池を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q14" value="1" checked>はい</label>
-					  <label><input type="radio" name="q14" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans14']==1){
+						echo "<label><input type='radio' name='q14' value='1' checked>はい</label>
+						<label><input type='radio' name='q14' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q14' value='1'>はい</label>
+						<label><input type='radio' name='q14' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q15.軍手を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q15" value="1" checked>はい</label>
-					  <label><input type="radio" name="q15" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans15']==1){
+						echo "<label><input type='radio' name='q15' value='1' checked>はい</label>
+						<label><input type='radio' name='q15' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q15' value='1'>はい</label>
+						<label><input type='radio' name='q15' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q16.ポリ袋を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q16" value="1" checked>はい</label>
-					  <label><input type="radio" name="q16" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans16']==1){
+						echo "<label><input type='radio' name='q16' value='1' checked>はい</label>
+						<label><input type='radio' name='q16' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q16' value='1'>はい</label>
+						<label><input type='radio' name='q16' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                     <dt>Q17.給水袋を備蓄していますか？</dt>
 					<dd>
-					  <label><input type="radio" name="q17" value="1" checked>はい</label>
-					  <label><input type="radio" name="q17" value="0">いいえ</label><br>
+					<?php
+					  if($row['ans17']==1){
+						echo "<label><input type='radio' name='q17' value='1' checked>はい</label>
+						<label><input type='radio' name='q17' value='0'>いいえ</label><br>";
+					  }else{
+						echo "<label><input type='radio' name='q17' value='1'>はい</label>
+						<label><input type='radio' name='q17' value='0' checked>いいえ</label><br>";
+					  }
+					  ?>
 					</dd>
 					<br>
                 
