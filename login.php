@@ -55,7 +55,6 @@ return false;
 //パスワード確認後sessionにメールアドレスを渡す
 if (password_verify($_POST['password'], $row['password'])) {
   session_regenerate_id(true); //session_idを新しく生成し、置き換える
-  $_SESSION['NAME'] = $row['name'];
   $_SESSION['EMAIL'] = $row['email'];
   //echo 'ログインしました';
   include_once("toppage.php");

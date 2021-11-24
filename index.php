@@ -43,9 +43,19 @@ if (isset($_SESSION['EMAIL'])) {
      <input type="password" name="password" size="66.5"><br>
      <p>※半角英数字をそれぞれ１文字以上含んだ、８文字以上の文字列</p><br>
      <label for="repassword">パスワード(確認)</label><br>
-     <input type="repassword" name="repassword" size="66.5"><br><br>
-     <!--<label for="name">ニックネーム</label><br>
-     <input type="name" name="name" size="66.5"><br><br>-->
+     <input type="password" name="repassword" size="66.5"><br><br>
+     <label for="sex">性別</label><br>
+     <label><input type='radio' name='sex' value='男性'>男性</label><br>
+     <label><input type='radio' name='sex' value='女性'>女性</label><br><br>
+     <label for="age">年齢</label><br>
+     <select name="age"><br><br>
+     <option value="10代">10代</option>
+     <option value="20代">20代</option>
+     <option value="30代">30代</option>
+     <option value="40代">40代</option>
+     <option value="50代">50代</option>
+     <option value="60代以上">60代以上</option>
+     </select><br><br>
      <button type="submit">新規登録</button><br><br>
      <p>学士研究のため、本システムの利用者を募集しております。<br>登録された個人情報は、研究目的以外の利用はいたしません。</p>
    </form>
