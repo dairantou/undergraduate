@@ -97,3 +97,73 @@ form {
 .form-footer a:hover {
   border-bottom: 1px dotted #8c8c8c;
 }
+
+/* スマートフォン 横(ランドスケープ) */
+@media only screen and (max-width:640px){
+	#header{
+	height:auto;
+	padding-bottom:20px;
+	}
+	
+	#header h1,.logo,.info{text-align:center;}
+	
+	.logo,.info{
+	clear:both;
+	width:100%;
+	float:none;
+	margin:0;
+	}
+	
+	.box img{
+	/*float:left;*/
+	margin-right:5px;
+	}
+	
+	.box h3{padding-top:0;}
+
+  .alignleft,.alignright{
+	float:none;
+	display:block;
+	margin:0 auto 10px;
+	}
+	
+	#gallery .grid{float:left;}
+
+	.mobile_hide{
+		display: none;
+	}
+
+	.pc_hide{
+		display: block;
+	}
+}
+
+
+/* スマートフォン 縦(ポートレート) */
+@media only screen and (max-width:480px){
+	.grid{width:100%;}
+	.box img{max-width:200px;}
+	#mainBanner h2{
+		font-size:80%;	
+		position: relative;
+  		top: 12px;
+	}
+	#mainBanner p{font-size:80%;}
+	#sidebar p{text-align:center;}
+
+	.mobile_hide{
+		display: none;
+	}
+
+	.pc_hide{
+		display: block;
+	}
+
+  /* Form Layout */
+.form-wrapper {
+  background: #fafafa;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 500px;
+}
+}
