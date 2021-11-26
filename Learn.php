@@ -79,13 +79,13 @@ foreach ($stmt as $row);
   	<a class="menu" id="menu"><span>MENU</span></a>
 		<div class="panel">   
 			<ul>
-				<li><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
-				<li><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
-				<li class="active"><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
+				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
+				<li><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
+				<li class="active"><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
-				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
-				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
-				<li><a href="logout.php"><strong>ログアウト</strong><span>logout</span></a></li>	
+				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
+				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
+				<li><a href="logout.php"><strong>ログアウト</strong><span></span></a></li>	
 			</ul> 
     </div>
 	</div> 
@@ -98,13 +98,22 @@ foreach ($stmt as $row);
 	<section id="main">
   
   	<!-- メイン画像 -->
-		<div id="mainBanner">
+	<div id="mainBanner">
 			<img src="images/mainImg2.jpg" width="680" height="140" alt="">
     	<div class="slogan">
+				<div class="mobile_hide">
 				<h2>家庭内備蓄品にはどんなものがあるの？</h2>
 				<p>被災時に自宅避難で必要となる家庭内備蓄品について学んでいきます。</p>
-			</div>
+				</div>
+
+				<div class="pc_hide">
+				<div id="learn-slogan">
+				<h2>家庭内備蓄品にはどんなものがあるの？</h2>
+				<p>被災時に自宅避難で必要となる家庭内備蓄品について<br>学んでいきます。</p>
+				</div>
+				</div>
 		</div>
+	</div>
 		<!-- / メイン画像 -->
 
         <div class="pc_hide">
@@ -126,7 +135,7 @@ foreach ($stmt as $row);
 		<section class="content">
 			<h3 class="heading" id="atfirst">はじめに</h3>
 		  <article>
-			<p><a href="self-help.php#self-help&bitiku">「自助」とは？</a>のページでは日常から被災時に役立つ家庭内備蓄品を確保しておくことの重要性を学習しました。このページでは、具体的にどのような家庭内備蓄品が必要なのかを飲食物・衛生用品・その他の生活用品の3つのジャンルに分けて説明していきます。大規模災害発生時にむけて、これらの家庭内備蓄品を1週間分確保することが望ましいとされていることも覚えておいてください。</p>
+			<p><a href="self-help.php#self-help&bitiku"><b>「自助」とは？</b></a>のページでは日常から被災時に役立つ家庭内備蓄品を確保しておくことの重要性を学習しました。このページでは、具体的にどのような家庭内備蓄品が必要なのかを飲食物・衛生用品・その他の生活用品の3つのジャンルに分けて説明していきます。大規模災害発生時にむけて、これらの家庭内備蓄品を<b>1週間分</b>確保することが望ましいとされていることも覚えておいてください。</p>
             </article>
 
             <h3 class="heading" id="insyoku">備蓄品の紹介:飲食物</h3>

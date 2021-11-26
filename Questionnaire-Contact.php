@@ -79,13 +79,13 @@ foreach ($stmt as $row);
   	<a class="menu" id="menu"><span>MENU</span></a>
 		<div class="panel">   
 			<ul>
-				<li><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
-				<li><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
+				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
+				<li><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
-				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
-				<li class="active last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
-				<li><a href="logout.php"><strong>ログアウト</strong><span>logout</span></a></li>
+				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
+				<li class="active last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
+				<li><a href="logout.php"><strong>ログアウト</strong><span></span></a></li>
 			</ul> 
     </div>
 	</div> 

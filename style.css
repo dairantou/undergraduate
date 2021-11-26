@@ -308,7 +308,7 @@ margin:3px 0 10px 10px;
 #main ul.pageNav01 {
 	margin: 0 0 10px;
 	padding: 10px 10px 5px;
-	background: #eee;
+	background: #fff0da;
 	text-align: center;
 }
 
@@ -322,7 +322,8 @@ margin:3px 0 10px 10px;
 	display: inline-block;
 	margin-bottom: 5px;
 	padding: 1px 8px;
-	background:rgb(163,160,160);
+	/*background:rgb(163,160,160);*/
+	background:#f2a64b;
 	border: 1px solid #aaa;
 	text-decoration: none;
 	vertical-align: middle;
@@ -879,6 +880,16 @@ color:#5f3700;
 	}
 
 	a:hover{color:#5f3700;}/*カーソルを置いた時の色*/
+
+	#learn-slogan h2{
+		position: relative;
+		top: 16px;
+	}
+
+	#learn-slogan p{
+		position: relative;
+		top: 15px;
+	}
 
 	.mobile_hide{
 		display: none;

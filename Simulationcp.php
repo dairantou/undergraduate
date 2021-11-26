@@ -79,13 +79,13 @@ foreach ($stmt as $row);
   	<a class="menu" id="menu"><span>MENU</span></a>
 		<div class="panel">   
 			<ul>
-				<li><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
-				<li><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
+				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
+				<li><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
-				<li class="active"><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
-				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
-				<li><a href="logout.php"><strong>ログアウト</strong><span>logout</span></a></li>
+				<li class="active"><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
+				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
+				<li><a href="logout.php"><strong>ログアウト</strong><span></span></a></li>
 				</ul> 
     </div>
 	</div> 
@@ -99,16 +99,38 @@ foreach ($stmt as $row);
   
   	<!-- メイン画像 -->
 		<div id="mainBanner">
-			<img src="images/mainimg3.jpg" width="680" height="140" alt="">
+			<img src="images/mainImg3.jpg" width="680" height="140" alt="">
     	<div class="slogan">
+				<div class="mobile_hide">
 				<h2>自宅避難時生活シミュレーション</h2>
-				<p>あなたの家庭の備蓄状況で自宅避難時にどのような生活を送れるのかを調べましょう。</p>
-			</div>
+				<p>あなたの家庭の備蓄状況で、自宅避難時にどのような生活を送れるかを調べましょう。</p>
+				</div>
+
+				<div class="pc_hide">
+				<div id="learn-slogan">
+				<h2>自宅避難時生活シミュレーション</h2>
+				<p>あなたの家庭の備蓄状況で、自宅避難時に<br>どのような生活を送れるかを調べましょう。</p>
+				</div>
+				</div>
 		</div>
+	</div>
 		<!-- / メイン画像 -->
+
+		<div class="pc_hide">
+	<aside id="sidebar">
+       
+		<h3 class="heading">目次</h3>
+    <article>
+			<ul>
+				<li><a href="#scenario">備蓄状況の入力</a></li>
+				<li><a href="#result">採点結果</a></li>
+				<li><a href="#result">フィードバックコメント</a></li>
+			</ul>
+	</article>
+	</div>
     
     <section class="content">
-    	<h3 class="heading" id="scenario">自宅避難時生活シミュレーション</h3>
+    	<h3 class="heading" id="scenario">備蓄状況の入力</h3>
       <article>
 			
 			<p><br>家族構成、家庭内備蓄品の備蓄状況を入力することで、自身の備蓄状況について採点結果とフィードバックが得ることができます。<br><br>以下の17問の質問に答えて、自身の備蓄状況で自宅避難時に問題なく生活できるかどうかシミュレーションしてみましょう。<br><br>"入力を保存をする"というボタンを押すと、入力状況が保存されるため次回以降は変更箇所のみの入力で済みます。</p><br>
@@ -355,8 +377,9 @@ foreach ($stmt as $row);
 		<h3 class="heading">目次</h3>
     <article>
 			<ul>
-				<li><a href="#scenario">自宅避難時生活シミュレーション</a></li>
-				<!--<li><a href="#scenario">分析結果</a></li>-->
+				<li><a href="#scenario">備蓄状況の入力</a></li>
+				<li><a href="#result">採点結果</a></li>
+				<li><a href="#result">フィードバックコメント</a></li>
 			</ul>
 	</article>
 		<h3 class="heading">アンケートのお願い</h3>
