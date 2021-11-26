@@ -79,13 +79,13 @@ foreach ($stmt as $row);
   	<a class="menu" id="menu"><span>MENU</span></a>
 		<div class="panel">   
 			<ul>
-				<li><a href="toppage.php"><strong>トップページ</strong><span>Top</span></a></li>
-				<li class="active"><a href="self-help.php"><strong>「自助」とは？</strong><span>What's self-help</span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span>Learn</span></a></li>
+				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
+				<li class="active"><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
-				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span>Simulationcp</span></a></li>
-				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span>Questionnaire/Contact</span></a></li>
-				<li><a href="logout.php"><strong>ログアウト</strong><span>logout</span></a></li>	
+				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
+				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
+				<li><a href="logout.php"><strong>ログアウト</strong><span></span></a></li>	
 			</ul> 
     </div>
 	</div> 
@@ -98,13 +98,27 @@ foreach ($stmt as $row);
 	<section id="main">
   
   	<!-- メイン画像 -->
-		<div id="mainBanner">
+	<div id="mainBanner">
 			<img src="images/mainImg2.jpg" width="680" height="140" alt="">
+
+		<div class="mobile_hide">
     	<div class="slogan">
-				<h2>「自助」ってなんだ？</h2>
-				<p>災害の被害を小さくするために大切な「自助」という考え方とは?<br>「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
-			</div>
+				<h2 id="slogan-h2-left">「自助」ってなんだ？</h2>
+				<p>災害の被害を小さくするために大切な「自助」という考え方とは?</p>
+				<p id="slogan-p-left">「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
 		</div>
+		</div>
+
+		<div class="pc_hide">
+		<div class="slogan">
+				<div id="self-help-slogan">
+				<h2>「自助」ってなんだ？</h2>
+				<p>減災に大切な「自助」という考え方とは?</p>
+				<p id="slogan-p-left">「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
+				</div>
+		</div>
+		</div>
+	</div>
 		<!-- / メイン画像 -->
 
         <div class="pc_hide">

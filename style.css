@@ -141,6 +141,11 @@ height:auto;
 /*border:4px solid #ebebeb;*/ /*メインbanner画像のフチ*/
 }
 
+#mainBanner p{
+color:#5f3700;
+font-weight:bold; 
+}
+
 .slogan{
 position:absolute;
 max-width:100%;
@@ -239,8 +244,9 @@ h3.heading{
 font-weight:normal;
 padding:0 10px;
 line-height:36px;
-color:#333;
-background:#f1f1f1;
+color:#5f3700;
+background:#fff0da;
+font-weight: bold;
 }
 
 section.content img{
@@ -407,7 +413,9 @@ background-position:top;
 /*************
 /* サイドバー
 *************/
-#sidebar ul{padding:10px;}
+#sidebar ul{
+padding:10px;
+}
 
 #sidebar li{
 margin-bottom:10px;
@@ -426,7 +434,7 @@ color:#333;
 display:block;
 }
 
-/*#sidebar li a:hover{color:#888;}*/
+#sidebar li a:hover{color:blue;}
 
 #sidebar ul.list li{
 clear:both;
@@ -651,6 +659,21 @@ color:#5f3700;
 	.pc_hide{
 		display: none;
 	}
+
+	#box-h3-left{
+		position: relative;
+		left: -6px;
+	}
+
+	#slogan-p-left{
+		position: relative;
+		left: -6px;
+	}
+
+	#slogan-h2-left{
+		position: relative;
+		left: -8px;
+	}
 }
 
 	
@@ -827,12 +850,45 @@ color:#5f3700;
 	#mainBanner p{font-size:80%;}
 	#sidebar p{text-align:center;}
 
+
+	#self-help-slogan h2{
+		position: relative;
+		top: 15px;
+		left: -8px;
+	}
+
+	#self-help-slogan p{
+		position: relative;
+		top: 15px;
+	}
+
+	#box-h3-left{
+		position: relative;
+		left: -6px;
+	}
+
+	#slogan-p-left{
+		position: relative;
+		left: -6px;
+	}
+
+	nav#mainNav ul li a span,nav#mainNav ul li a strong{
+		color:#5f3700;
+		font-weight: bold;
+		display:block;
+	}
+
+	a:hover{color:#5f3700;}/*カーソルを置いた時の色*/
+
 	.mobile_hide{
 		display: none;
 	}
+
 
 	.pc_hide{
 		display: block;
 	}
 }
+
+	
 
