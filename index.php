@@ -45,16 +45,16 @@ if (isset($_SESSION['EMAIL'])) {
      <label for="repassword">パスワード(確認)</label><br>
      <input type="password" name="repassword" style="width:100%"><br><br>
      <label for="sex">性別</label><br>
-     <label><input type='radio' name='sex' value='男性'>男性</label><br>
-     <label><input type='radio' name='sex' value='女性'>女性</label><br><br>
+     <label><input type='radio' name='sex' value='male'>男性</label><br>
+     <label><input type='radio' name='sex' value='female'>女性</label><br><br>
      <label for="age">年齢</label><br>
      <select name="age"><br><br>
-     <option value="10代">10代</option>
-     <option value="20代">20代</option>
-     <option value="30代">30代</option>
-     <option value="40代">40代</option>
-     <option value="50代">50代</option>
-     <option value="60代以上">60代以上</option>
+     <option value="10s">10代</option>
+     <option value="20s">20代</option>
+     <option value="30s">30代</option>
+     <option value="40s">40代</option>
+     <option value="50s">50代</option>
+     <option value="60over">60代以上</option>
      </select><br><br>
      <button type="submit">新規登録</button><br><br>
      <p>学士研究のため、本システムの利用者を募集しております。<br>登録された個人情報は、研究目的以外の利用はいたしません。</p>

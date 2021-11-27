@@ -99,7 +99,7 @@ foreach ($stmt as $row);
   
   	<!-- メイン画像 -->
 		<div id="mainBanner">
-			<img src="images/mainImg3.jpg" width="680" height="140" alt="">
+			<img src="images/mainimg3.jpg" width="680" height="140" alt="">
     	<div class="slogan">
 				<div class="mobile_hide">
 				<h2>自宅避難時生活シミュレーション</h2>
