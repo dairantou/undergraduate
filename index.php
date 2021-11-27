@@ -19,7 +19,7 @@ if (isset($_SESSION['EMAIL'])) {
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 <title>防災学習支援サイト</title>
 <link rel="stylesheet" href="stylelogin.css">
 <script src="js/jquery1.7.2.min.js"></script>
@@ -30,20 +30,20 @@ if (isset($_SESSION['EMAIL'])) {
    <h1>ログイン</h1>
    <form  action="login.php" method="post">
       <label for="email">メールアドレス</label><br>
-      <input type="email" name="email" size="66.5"><br><br>
+      <input type="email" name="email" style="width:100%"><br><br>
       <label for="password">パスワード</label><br>
-      <input type="password" name="password" size="66.5"><br><br>
+      <input type="password" name="password" style="width:100%"><br><br>
       <button type="submit">ログイン</button><br>
    </form>
    <h1>新規登録</h1>
    <form action="signUp.php" method="post">
      <label for="email">メールアドレス</label><br>
-     <input type="email" name="email" size="66.5"><br><br>
+     <input type="email" name="email" style="width:100%"><br><br>
      <label for="password">パスワード</label><br>
-     <input type="password" name="password" size="66.5"><br>
+     <input type="password" name="password" style="width:100%"><br>
      <p>※半角英数字をそれぞれ１文字以上含んだ、８文字以上の文字列</p><br>
      <label for="repassword">パスワード(確認)</label><br>
-     <input type="password" name="repassword" size="66.5"><br><br>
+     <input type="password" name="repassword" style="width:100%"><br><br>
      <label for="sex">性別</label><br>
      <label><input type='radio' name='sex' value='男性'>男性</label><br>
      <label><input type='radio' name='sex' value='女性'>女性</label><br><br>
