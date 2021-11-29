@@ -28,11 +28,12 @@ form {
 }
 
 
-
+/*
 .form-item {
   margin-bottom: 0.75em;
   width: 100%;
 }
+
 
 .form-item input {
   background: #fafafa;
@@ -44,8 +45,9 @@ form {
   height: 50px;
   transition: border-color 0.3s;
   width: 100%;
-}
+}*/
 
+/*
 .form-item input:focus {
   border-bottom: 2px solid #c0c0c0;
   outline: none;
@@ -71,9 +73,12 @@ form {
   width: 100%;
 }
 
+
 .button:hover {
   background: #ee3e52;
 }
+
+*/
 
 .form-footer {
   font-size: 1em;

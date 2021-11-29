@@ -21,7 +21,7 @@ if (isset($_SESSION['EMAIL'])) {
 <head>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 <title>防災学習支援サイト</title>
-<link rel="stylesheet" href="stylelogin.css">
+<link rel="stylesheet" href="style2.css">
 <script src="js/jquery1.7.2.min.js"></script>
 <script src="js/script.js"></script>
 </head>
