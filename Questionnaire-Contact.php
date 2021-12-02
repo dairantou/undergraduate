@@ -40,6 +40,15 @@ foreach ($stmt as $row);
 <!DOCTYPE html>
 <html dir="ltr" lang="ja">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58GYY969ZT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58GYY969ZT');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
 <title>防災学習支援サイト</title>
@@ -134,7 +143,7 @@ foreach ($stmt as $row);
 		<h3 class="heading" id="questionnaire">アンケート</h3>
 		<article>
 			下記リンクより、アンケートにご協力お願いします。<br>
-			<a href="https:" target="_blank" rel="noopener noreferrer">アンケートページへ移動</a>
+			<a href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ移動</a>
 		</article>
 	</section>
 

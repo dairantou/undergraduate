@@ -19,6 +19,15 @@ if (isset($_SESSION['EMAIL'])) {
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-58GYY969ZT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-58GYY969ZT');
+</script>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
 <title>防災学習支援サイト</title>
 <link rel="stylesheet" href="style2.css">
