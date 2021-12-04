@@ -41,17 +41,17 @@ foreach ($stmt as $row);
 <html dir="ltr" lang="ja">
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-58GYY969ZT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFC60G6Q9F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-58GYY969ZT');
+  gtag('config', 'G-QFC60G6Q9F');
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
-<title>防災学習支援サイト</title>
+<title>防災学習支援サイト-学習1</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" href="style.css" type="text/css" media="screen">

@@ -20,16 +20,16 @@ if (isset($_SESSION['EMAIL'])) {
 <html lang="ja">
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-58GYY969ZT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFC60G6Q9F"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-58GYY969ZT');
+  gtag('config', 'G-QFC60G6Q9F');
 </script>
 <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
-<title>防災学習支援サイト</title>
+<title>防災学習支援サイト-ログイン</title>
 <link rel="stylesheet" href="style2.css">
 <script src="js/jquery1.7.2.min.js"></script>
 <script src="js/script.js"></script>
