@@ -95,7 +95,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div7");  
-	doc.innerHTML= "・トイレットペーパーが備蓄されていないため、トイレの使用時におしりを拭けなくなるおそれがあります。(-6点)";	
+	doc.innerHTML= "・トイレットペーパーが備蓄されていないため、トイレの使用時などふき取る作業に支障がでるおそれがあります。(-6点)";	
 	}else{
 	var doc= document.getElementById("div7");  
 	doc.innerHTML= "";	

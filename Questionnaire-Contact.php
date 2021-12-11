@@ -90,7 +90,7 @@ foreach ($stmt as $row);
 			<ul>
 				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
 				<li><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>家庭内備蓄品の紹介</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
 				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
 				<li class="active last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
@@ -143,7 +143,7 @@ foreach ($stmt as $row);
 		<h3 class="heading" id="questionnaire">アンケート</h3>
 		<article>
 			下記リンクより、アンケートにご協力お願いします。<br>
-			<a href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ移動</a>
+			<a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ移動(Google フォーム)</a>
 		</article>
 	</section>
 
@@ -190,7 +190,7 @@ foreach ($stmt as $row);
 	</div>
 </footer>
 	<!-- / フッター -->
-	<address>Copyright(c) 2013 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+	<address>Copyright(c) 2021 家庭内備蓄品について学ぼう All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
 
 </body>
 </html>
