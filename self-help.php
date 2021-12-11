@@ -90,7 +90,7 @@ foreach ($stmt as $row);
 			<ul>
 				<li><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
 				<li class="active"><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>家庭内備蓄品の紹介</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
 				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
 				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
@@ -112,7 +112,7 @@ foreach ($stmt as $row);
 
 		<div class="mobile_hide">
     	<div class="slogan">
-				<h2 id="slogan-h2-left">「自助」ってなんだ？</h2>
+				<h2 id="slogan-h2-left">「自助」とは？</h2>
 				<p>災害の被害を小さくするために大切な「自助」という考え方とは?</p>
 				<p id="slogan-p-left">「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
 		</div>
@@ -121,7 +121,7 @@ foreach ($stmt as $row);
 		<div class="pc_hide">
 		<div class="slogan">
 				<div id="self-help-slogan">
-				<h2>「自助」ってなんだ？</h2>
+				<h2>「自助」とは？</h2>
 				<p>減災に大切な「自助」という考え方とは?</p>
 				<p id="slogan-p-left">「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
 				</div>
@@ -136,7 +136,7 @@ foreach ($stmt as $row);
 			<h3 class="heading">目次</h3>
 		<article>
 				<ul>
-					<li><a href="#self-help">「自助」とは？</a></li>
+					<li><a href="#self-help">「自助」と減災</a></li>
 					<li><a href="#self-help&bitiku">「自助」と家庭内備蓄品</a></li>
 				</ul>
 		</article>        
@@ -144,7 +144,7 @@ foreach ($stmt as $row);
         </div>
 
 		<section class="content">
-			<h3 class="heading" id="self-help">「自助」とは?</h3>
+			<h3 class="heading" id="self-help">「自助」と減災</h3>
 		  <article>
 			<p><img src="images/self-help.jpg"><br>わが国では地震が多発しており、首都直下型地震や南海トラフ巨大地震の発生も危惧されています。大地震が発生したときには、電気・ガス・水道・通信といったライフラインが停止してしまい日常生活に大きな混乱や支障が生じる可能性があります。			
 				一方、防災白書(2012)＊1によると、防災対策には、地域住民が自らを災害から守る<b>「自助」</b>、地域社会が互いを助け合う「共助」、国や自治体等の行政による施策の「公助」があり、最も基本となるのは個人による対策の<b>「自助」</b>であるとされています。
@@ -169,7 +169,7 @@ foreach ($stmt as $row);
 			<h3 class="heading">目次</h3>
 		<article>
 				<ul>
-					<li><a href="#self-help">「自助」とは？</a></li>
+					<li><a href="#self-help">「自助」と減災</a></li>
 					<li><a href="#self-help&bitiku">「自助」と家庭内備蓄品</a></li>
 				</ul>
 		</article>
@@ -179,7 +179,7 @@ foreach ($stmt as $row);
 		<article>
 			<ul>
 				<li>本システムの利用後、アンケート評価にご協力お願いいたします。(一度のみ回答お願いします。)</li>
-				<li><a href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ(回答時間2分半)</a></li>
+				<li><a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ(回答時間2分半)</a></li>
 			</ul>
 		</article>
         
@@ -210,7 +210,7 @@ foreach ($stmt as $row);
 	</div>
 </footer>
 	<!-- / フッター -->
-	<address>Copyright(c) 2013 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+	<address>Copyright(c) 2021 家庭内備蓄品について学ぼう All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
 
 </body>
 </html>

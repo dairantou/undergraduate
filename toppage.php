@@ -90,7 +90,7 @@ foreach ($stmt as $row);
     	<ul>
     		<li class="active"><a href="toppage.php"><strong>トップページ</strong><span></span></a></li>
 				<li><a href="self-help.php"><strong>「自助」とは？</strong><span></span></a></li>
-				<li><a href="Learn.php"><strong>学ぶ</strong><span></span></a></li>
+				<li><a href="Learn.php"><strong>家庭内備蓄品の紹介</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
 				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
 				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
@@ -118,7 +118,7 @@ foreach ($stmt as $row);
 		<article class="grid">
       <div class="box">
 				<img src="images/study.jpg" width="260" height="113" alt="">
-				<h3 id="box-h3-left">「自助」ってなんだ？</h3>
+				<h3 id="box-h3-left">「自助」とは？</h3>
 				<p>災害の被害を小さくするために大切な「自助」という考え方とは?「自助」と家庭内備蓄品の関連性を説明します。</p>
 				<p class="readmore"><a href="self-help.php">詳細を確認する</a></p>
       </div>
@@ -168,7 +168,7 @@ foreach ($stmt as $row);
 	</div>
 </footer>
 	<!-- / フッター -->
-	<address id=copyright>Copyright(c) 2013 Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+	<address id=copyright>Copyright(c) 2021 家庭内備蓄品について学ぼう All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
 
 </body>
 </html>

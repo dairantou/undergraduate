@@ -799,7 +799,7 @@ color:#5f3700;
 
 
 /* スマートフォン 横(ランドスケープ) */
-@media only screen and (max-width:640px){
+@media only screen and (max-width:958px){
 	#header{
 	height:auto;
 	padding-bottom:20px;
