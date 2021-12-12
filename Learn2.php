@@ -54,7 +54,7 @@ foreach ($stmt as $row);
 <title>防災学習支援サイト-学習2</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
-<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="style.css?v=1.0" type="text/css" media="screen">
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
