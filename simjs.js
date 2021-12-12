@@ -8,9 +8,10 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var radios5=parseFloat(document.getElementById(name5).value);
 	var radios6=parseFloat(document.getElementById(name6).value);
 
-	var a=document.search_form.q.value;
-  if(a=="")
-	if(radios1==0||radios1==""){
+	//var a=document.search_form.q.value;
+  //if(a=="")
+	//if(radios1==0||radios1==""){
+	if(radios1==0){
 		alert('Q1には1以上の数値を入力してください');
 		return;
 	}
