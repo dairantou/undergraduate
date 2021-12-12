@@ -149,7 +149,7 @@ foreach ($stmt as $row);
 			<dt>Q1.現在何人で暮らしていますか？</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q1' name='ans1' maxlength='4' oninput='value = value.replace(/[０-９]/g,s => String.fromCharCode(s.charCodeAt(0) - 65248)).replace(/\D/g,'');' style='text-align:right;width:50px;' value=".$row['ans1']."><label for='q1'>[人]</label><br>"
+			echo "<input type='tel' id='q1' name='ans1' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans1']."><label for='q1'>[人]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -157,7 +157,7 @@ foreach ($stmt as $row);
             <dt>Q2.飲料水を何L備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q2' name='ans2' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans2']."><label for='q2'>[L]</label><br>"
+			echo "<input type='tel' id='q2' name='ans2' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans2']."><label for='q2'>[L]</label><br>"
 			?>
 			<br>
 			</dd>

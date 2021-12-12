@@ -1,3 +1,7 @@
+const onlyNumbers = n => {
+    return n.replace(/[０-９]/g,s => String.fromCharCode(s.charCodeAt(0) - 65248)).replace(/\D/g,'');
+}
+
 function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15,name16,name17){
 
 	var score=100;
