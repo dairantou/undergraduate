@@ -142,13 +142,13 @@ foreach ($stmt as $row);
     	<h3 class="heading" id="scenario">備蓄状況の入力</h3>
       <article>
 			
-			<p><br>家族構成、家庭内備蓄品の備蓄状況を入力することで、自身の備蓄状況について採点結果とフィードバックが得ることができます。<br><br>以下の17問の質問に答えて、自身の備蓄状況で自宅避難時に問題なく生活できるかどうかシミュレーションしてみましょう。<br><br>"入力を保存をする"というボタンを押すと、入力状況が保存されるため次回以降は変更箇所のみの入力で済みます。</p><br>
+			<p><br>家族構成、家庭内備蓄品の備蓄状況を入力することで、自身の備蓄状況について採点結果とフィードバックを得ることができます。<br><br>以下の17問の質問に答えて、自身の備蓄状況で自宅避難時に問題なく生活できるかどうかシミュレーションしてみましょう。<br><br>"入力を保存をする"というボタンを押すと、入力状況が保存されるため次回以降は変更箇所のみの入力で済みます。</p><br>
 
 			<form action="Simulationcp-Register.php" method="post">
 			<dt>Q1.現在何人で暮らしていますか？</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q1' name='ans1' maxlength='4' value=".$row['ans1']."><label for='q1'>[人]</label><br>"
+			echo "<input type='tel' id='q1' name='ans1' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans1']."><label for='q1'>[人]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -156,7 +156,7 @@ foreach ($stmt as $row);
             <dt>Q2.飲料水を何L備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q2' name='ans2' maxlength='4' value=".$row['ans2']."><label for='q2'>[L]</label><br>"
+			echo "<input type='tel' id='q2' name='ans2' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans2']."><label for='q2'>[L]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -165,7 +165,7 @@ foreach ($stmt as $row);
             <dt>Q3.非常食を何食分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q3' name='ans3' maxlength='4' value=".$row['ans3']."><label for='q3'>[食分]</label><br>"
+			echo "<input type='tel' id='q3' name='ans3' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans3']."><label for='q3'>[食分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -173,7 +173,7 @@ foreach ($stmt as $row);
 			<dt>Q4.ウェットボディタオルを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q4' name='ans4' maxlength='4' value=".$row['ans4']."><label for='q4'>[回分]</label><br>"
+			echo "<input type='tel' id='q4' name='ans4' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans4']."><label for='q4'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -181,7 +181,7 @@ foreach ($stmt as $row);
             <dt>Q5.歯磨き用ウェットティッシュを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q5' name='ans5' maxlength='4' value=".$row['ans5']."><label for='q5'>[回分]</label><br>"
+			echo "<input type='tel' id='q5' name='ans5' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans5']."><label for='q5'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -189,7 +189,7 @@ foreach ($stmt as $row);
             <dt>Q6.簡易トイレを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q6' name='ans6' maxlength='4' value=".$row['ans6']."><label for='q6'>[回分]</label><br>"
+			echo "<input type='tel' id='q6' name='ans6' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans6']."><label for='q6'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
