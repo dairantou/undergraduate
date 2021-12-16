@@ -2,9 +2,61 @@ const onlyNumbers = n => {
     return n.replace(/[０-９]/g,s => String.fromCharCode(s.charCodeAt(0) - 65248)).replace(/\D/g,'');
 }
 
+function check(name1,name2,name3,name4,name5,name6){
+	
+	if(document.getElementById(name1).value ==""){
+		alert('Q1が未入力です');
+		return false;
+	}
+
+	if(document.getElementById(name2).value ==""){
+		alert('Q2が未入力です');
+		return false;
+	}
+
+	if(document.getElementById(name3).value ==""){
+		alert('Q3が未入力です');
+		return false;
+	}
+
+	if(document.getElementById(name4).value ==""){
+		alert('Q4が未入力です');
+		return false;
+	}
+
+	if(document.getElementById(name5).value ==""){
+		alert('Q5が未入力です');
+		return false;
+	}
+
+	if(document.getElementById(name6).value ==""){
+		alert('Q6が未入力です');
+		return false;
+	}
+	return true;
+}
+
+
 function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,name11,name12,name13,name14,name15,name16,name17){
 
 	var score=100;
+	if(!check(name1,name2,name3,name4,name5,name6)){
+
+		/*入力されていない項目があった時、採点結果とフィードバックコメントを削除*/ 
+		var doc= document.getElementById("score");  
+		doc.innerHTML= "";
+
+		for(var i=2;i<18;i++){
+		var div="div"+i;
+			doc= document.getElementById(div);  
+			doc.innerHTML= "";
+		}
+		
+
+		return;
+	}
+
+
 	var radios1=parseFloat(document.getElementById(name1).value);
 	var radios2=parseFloat(document.getElementById(name2).value);
 	var radios3=parseFloat(document.getElementById(name3).value);
@@ -300,10 +352,10 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中"+score+"点です。";
 
 	//100点の場合
-	if(score==100){
+	/*if(score==100){
 	var doc= document.getElementById("div2");  
 	doc.innerHTML= "あなたの家庭の素晴らしい備蓄情況から「自助」の意識をしっかり持っていることが伺えます。備蓄品の消費期限や使用期限に気をつけてこのまま良い備蓄情況を維持できるように頑張ってください。";
-	}
+	}*/
 
   }
 

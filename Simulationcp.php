@@ -166,7 +166,7 @@ foreach ($stmt as $row);
             <dt>Q3.非常食を何食分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q3' name='ans3' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans3']."><label for='q3'>[食分]</label><br>"
+			echo "<input type='tel' id='q3' name='ans3' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans3']."><label for='q3'>[食分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -174,7 +174,7 @@ foreach ($stmt as $row);
 			<dt>Q4.ウェットボディタオルを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q4' name='ans4' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans4']."><label for='q4'>[回分]</label><br>"
+			echo "<input type='tel' id='q4' name='ans4' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans4']."><label for='q4'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -182,7 +182,7 @@ foreach ($stmt as $row);
             <dt>Q5.歯磨き用ウェットティッシュを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q5' name='ans5' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans5']."><label for='q5'>[回分]</label><br>"
+			echo "<input type='tel' id='q5' name='ans5' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans5']."><label for='q5'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
@@ -190,7 +190,7 @@ foreach ($stmt as $row);
             <dt>Q6.簡易トイレを何回分備蓄していますか？備蓄していない場合は0と入力してください。</dt>
 			<dd>
 			<?php
-			echo "<input type='tel' id='q6' name='ans6' maxlength='4' style='text-align:right;width:50px;' value=".$row['ans6']."><label for='q6'>[回分]</label><br>"
+			echo "<input type='tel' id='q6' name='ans6' maxlength='4' oninput='value = onlyNumbers(value)' style='text-align:right;width:50px;' value=".$row['ans6']."><label for='q6'>[回分]</label><br>"
 			?>
 			<br>
 			</dd>
