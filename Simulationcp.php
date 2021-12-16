@@ -145,7 +145,7 @@ foreach ($stmt as $row);
 			<p><br>家族構成、家庭内備蓄品の備蓄状況を入力することで、自身の備蓄状況について採点結果とフィードバックを得ることができます。<br><br>以下の17問の質問に答えて、自身の備蓄状況で自宅避難時に問題なく生活できるかどうかシミュレーションしてみましょう。<br><br>"入力を保存をする"というボタンを押すと、入力状況が保存されるため次回以降は変更箇所のみの入力で済みます。</p><br>
 			<p style="font-weight: bold;">Q1~Q6は半角数字で整数を入力してください</p><br>
 
-			<form action="Simulationcp-Register.php" method="post">
+			<form action="Simulationcp-Register.php" method="post" onsubmit="return check()">
 			<dt>Q1.現在何人で暮らしていますか？</dt>
 			<dd>
 			<?php

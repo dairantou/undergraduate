@@ -69,6 +69,15 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	//if(radios1==0||radios1==""){
 	if(radios1==0){
 		alert('Q1には1以上の数値を入力してください');
+		/*点数とコメント削除*/ 
+		var doc= document.getElementById("score");  
+		doc.innerHTML= "";
+
+		for(var i=2;i<18;i++){
+		var div="div"+i;
+			doc= document.getElementById(div);  
+			doc.innerHTML= "";
+		}
 		return;
 	}
 
