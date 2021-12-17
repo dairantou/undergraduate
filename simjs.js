@@ -90,7 +90,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var lostscore=7-day;
 	score-=lostscore;
 	var doc= document.getElementById("div2");  
-	doc.innerHTML= "・飲料水の備蓄が約"+day+"日分(1人1日3Lの消費を仮定)しかないため、断水が続くとに水分補給やお湯を用いる非常食の調理が出来なくなるおそれがあります。あと"+more+"Lあれば推奨される1週間分の備蓄量を確保できます。(-"+lostscore+"点)";
+	doc.innerHTML= "<br><b>飲料水（-"+lostscore+"点）</b><br>「飲料水の備蓄が約"+day+"日分（1人1日3Lの消費を仮定）しかないため、断水が続くとに水分補給やお湯を用いる非常食の調理が出来なくなるおそれがあります。あと"+more+"Lあれば推奨される1週間分の備蓄量を確保できます。」";
 	}else{
 	var doc= document.getElementById("div2");  
 	doc.innerHTML= "";	
@@ -105,7 +105,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var lostscore=7-day;
 	score-=lostscore;
 	var doc= document.getElementById("div3");  
-	doc.innerHTML= "・非常食の備蓄が約"+day+"日分(1人1日3食分の消費を仮定)しかないため、物流の機能停止などで新たに食料を入手できない場合に満足な食事が出来ず栄養失調になってしまうおそれがあります。あと"+more+"食分あれば推奨される1週間分の備蓄量を確保できます。(-"+lostscore+"点)";
+	doc.innerHTML= "<br><b>非常食（-"+lostscore+"点）</b><br>「非常食の備蓄が約"+day+"日分（1人1日3食分の消費を仮定）しかないため、物流の機能停止などで新たに食料を入手できない場合に満足な食事が出来ず栄養失調になってしまうおそれがあります。あと"+more+"食分あれば推奨される1週間分の備蓄量を確保できます。」";
 	}else{
 	var doc= document.getElementById("div3");  
 	doc.innerHTML= "";	
@@ -120,7 +120,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var lostscore=7-day;
 	score-=lostscore;
 	var doc= document.getElementById("div4");  
-	doc.innerHTML= "・ウェットボディタオルの備蓄が約"+day+"日分(1人1日1回分の消費を仮定)しかないため、ウエットボディタオルを使いきったときにガスの停止や断水が続いていると、体を拭いて清潔に保つことができなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。(-"+lostscore+"点)";
+	doc.innerHTML= "<br><b>ウェットボディタオル（-"+lostscore+"点）</b><br>「ウェットボディタオルの備蓄が約"+day+"日分（1人1日1回分の消費を仮定）しかないため、ウェットボディタオルを使いきったときにガスの停止や断水が続いていると、体を拭いて清潔に保つことができなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。」";
 	}else{
 	var doc= document.getElementById("div4");  
 	doc.innerHTML= "";	
@@ -135,7 +135,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var lostscore=7-day;
 	score-=lostscore;
 	var doc= document.getElementById("div5");  
-	doc.innerHTML= "・歯磨き用ウェットティッシュの備蓄が約"+day+"日分(1人1日2回分の消費を仮定)しかないため、歯磨き用ウェットティッシュを使いきったときに断水が続いていると、歯を清潔に保つことができなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。(-"+lostscore+"点)";
+	doc.innerHTML= "<br><b>歯磨き用ウェットティッシュ（-"+lostscore+"点）</b><br>「歯磨き用ウェットティッシュの備蓄が約"+day+"日分（1人1日2回分の消費を仮定）しかないため、歯磨き用ウェットティッシュを使いきったときに断水が続いていると、歯を清潔に保つことができなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。」";
 	}else{
 	var doc= document.getElementById("div5");  
 	doc.innerHTML= "";	
@@ -150,7 +150,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	var lostscore=7-day;
 	score-=lostscore;
 	var doc= document.getElementById("div6");  
-	doc.innerHTML= "・簡易トイレの備蓄が約"+day+"日分(1人1日5回分の消費を仮定)しかないため、簡易トイレを使いきったときに断水などで水洗トイレが使えない情況が続いていると、家庭内でトイレをするのを我慢しなければならなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。(-"+lostscore+"点)";
+	doc.innerHTML= "<br><b>簡易トイレ（-"+lostscore+"点）</b><br>「簡易トイレの備蓄が約"+day+"日分（1人1日5回分の消費を仮定）しかないため、簡易トイレを使いきったときに断水などで水洗トイレが使えない情況が続いていると、家庭内でトイレをするのを我慢しなければならなくなるおそれがあります。あと"+more+"回分あれば推奨される1週間分の備蓄量を確保できます。」";
 	}else{
 	var doc= document.getElementById("div6");  
 	doc.innerHTML= "";	
@@ -168,7 +168,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div7");  
-	doc.innerHTML= "・トイレットペーパーが備蓄されていないため、トイレの使用時などふき取る作業に支障がでるおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>トイレットペーパー（-6点）</b><br>「トイレットペーパーが備蓄されていないため、トイレの使用時などふき取る作業に支障がでるおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div7");  
 	doc.innerHTML= "";	
@@ -186,7 +186,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div8");  
-	doc.innerHTML= "・ティッシュペーパーが備蓄されていないため、断水で水が使えない場面で汚れたお皿を拭くなどのふき取る作業ができなくなってしまうというおそれがあります。(-5点)";	
+	doc.innerHTML= "<br><b>ティッシュペーパー（-6点）</b><br>「ティッシュペーパーが備蓄されていないため、断水で水が使えない場面で汚れたお皿を拭くなどのふき取る作業ができなくなってしまうというおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div8");  
 	doc.innerHTML= "";	
@@ -204,7 +204,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div9");  
-	doc.innerHTML= "・救急箱が備蓄されていないため、被災時に怪我をしたときに家庭で応急手当ができなくなってしまうおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>救急箱（-6点）</b><br>「救急箱が備蓄されていないため、被災時に怪我をしたときに家庭で応急手当ができなくなってしまうおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div9");  
 	doc.innerHTML= "";	
@@ -223,7 +223,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div10");  
-	doc.innerHTML= "・カセットコンロ・カセットボンベが備蓄されていないため、電気やガスが止まると火を用いる調理ができなくなるおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>カセットコンロ・カセットボンベ（-6点）</b><br>「カセットコンロ・カセットボンベが備蓄されていないため、電気やガスが止まると火を用いる調理ができなくなるおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div10");  
 	doc.innerHTML= "";	
@@ -241,7 +241,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div11");  
-	doc.innerHTML= "・携帯電話用充電器が備蓄されていないため、停電時に携帯電話の充電が出来ず、家族との連絡や情報取集ができなくなるおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>携帯電話用充電器（-6点）</b><br>「携帯電話用充電器が備蓄されていないため、停電時に携帯電話の充電が出来ず、家族との連絡や情報取集ができなくなるおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div11");  
 	doc.innerHTML= "";	
@@ -259,7 +259,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div12");  
-	doc.innerHTML= "・懐中電灯が備蓄されていないため、夜に地震が発生し停電になってしまった時に、ガラス片や落下して破損した物が床に散乱している可能性があるなかで暗闇のまま活動しなければならないおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>懐中電灯（-6点）</b><br>「懐中電灯が備蓄されていないため、夜に地震が発生し停電になってしまった時に、ガラス片や落下して破損した物が床に散乱している可能性があるなかで暗闇のまま活動しなければならないおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div12");  
 	doc.innerHTML= "";	
@@ -277,7 +277,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div13");  
-	doc.innerHTML= "・手回し充電式などのラジオが備蓄されていないため、通信障害が発生しインターネットが使えない時に情報源がなくなってしまうおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>手回し充電式ラジオ（-6点）</b><br>「手回し充電式などのラジオが備蓄されていないため、通信障害が発生しインターネットが使えない時に情報源がなくなってしまうおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div13");  
 	doc.innerHTML= "";	
@@ -295,7 +295,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div14");  
-	doc.innerHTML= "・乾電池が備蓄されていないため、懐中電灯や携帯電話用充電器などの備蓄品を持っていても動力を確保できず使用できないおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>乾電池（-6点）</b><br>「乾電池が備蓄されていないため、懐中電灯や携帯電話用充電器などの備蓄品を持っていても動力を確保できず使用できないおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div14");  
 	doc.innerHTML= "";	
@@ -312,9 +312,9 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 		}
 	  }
 	if(flag==0){
-	score-=5;
+	score-=6;
 	var doc= document.getElementById("div15");  
-	doc.innerHTML= "・軍手が備蓄されていないため、ガラス片や落下して破損した物の片付けなどをする際に安全に作業できないおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>軍手（-6点）</b><br>「軍手が備蓄されていないため、ガラス片や落下して破損した物の片付けなどをする際に安全に作業できないおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div15");  
 	doc.innerHTML= "";	
@@ -332,7 +332,7 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div16");  
-	doc.innerHTML= "・ポリ袋が備蓄されていないため、生ごみなど匂いが出るごみが発生したときの処理に支障が出るおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>ポリ袋（-6点）</b><br>「ポリ袋が備蓄されていないため、生ごみなど匂いが出るごみが発生したときの処理に支障が出るおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div16");  
 	doc.innerHTML= "";	
@@ -350,21 +350,58 @@ function saiten(name1,name2,name3,name4,name5,name6,name7,name8,name9,name10,nam
 	if(flag==0){
 	score-=6;
 	var doc= document.getElementById("div17");  
-	doc.innerHTML= "・給水袋が備蓄されていないため、断水時に給水車から水を運ぶときに必要な労力が増えてしまうおそれがあります。(-6点)";	
+	doc.innerHTML= "<br><b>給水袋（-6点）</b><br>「給水袋が備蓄されていないため、断水時に給水車から水を運ぶときに必要な労力が増えてしまうおそれがあります。」";	
 	}else{
 	var doc= document.getElementById("div17");  
 	doc.innerHTML= "";	
 	}
 
-	//点数表示
-	var doc= document.getElementById("score");  
-	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中"+score+"点です。";
+	if(score==-1){
+		score=0;
+	}	
 
-	//100点の場合
-	/*if(score==100){
-	var doc= document.getElementById("div2");  
-	doc.innerHTML= "あなたの家庭の素晴らしい備蓄情況から「自助」の意識をしっかり持っていることが伺えます。備蓄品の消費期限や使用期限に気をつけてこのまま良い備蓄情況を維持できるように頑張ってください。";
-	}*/
+	//点数表示
+	if(score>=90){
+	var doc= document.getElementById("rating");  
+	doc.innerHTML= "秀";
+	var doc= document.getElementById("score");  
+	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中<b>"+score+"点</b>です。<br>";
+	var doc= document.getElementById("scoreco");
+	doc.innerHTML= "<br>「自助」の意識をしっかり持っていることが伺える素晴らしい備蓄状況です。備蓄品の消費期限や使用期限に気をつけて、このまま良い備蓄情況を維持できるように頑張ってください。"
+	}else if(score>=80){
+	var doc= document.getElementById("rating");  
+	doc.innerHTML= "優";
+	var doc= document.getElementById("score");  
+	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中<b>"+score+"点</b>です。<br>";
+	var doc= document.getElementById("scoreco");
+	doc.innerHTML= "<br>次は90点を目標にフィードバックコメントを参考にして備蓄状況を改善していきましょう。"
+	}else if(score>=70){
+	var doc= document.getElementById("rating");  
+	doc.innerHTML= "良";
+	var doc= document.getElementById("score");  
+	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中<b>"+score+"点</b>です。<br>";
+	var doc= document.getElementById("scoreco");
+	doc.innerHTML= "<br>次は80点を目標にフィードバックコメントを参考にして備蓄状況を改善していきましょう。"
+	}else if(score>=60){
+	var doc= document.getElementById("rating");  
+	doc.innerHTML= "可";
+	var doc= document.getElementById("score");  
+	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中<b>"+score+"点</b>です。<br>";
+	var doc= document.getElementById("scoreco");
+	doc.innerHTML= "<br>次は70点を目標にフィードバックコメントを参考にして備蓄状況を改善していきましょう。"
+	}else{
+	var doc= document.getElementById("rating");  
+	doc.innerHTML= "不可";
+	var doc= document.getElementById("score");  
+	doc.innerHTML= "あなたの家庭の備蓄状況は100点満点中<b>"+score+"点</b>です。<br>";
+	var doc= document.getElementById("scoreco");
+	doc.innerHTML= "<br>まずは60点を目標にフィードバックコメントを参考にして備蓄状況を改善していきましょう。"	
+	}
+
+	
+	
+
+	
 
   }
 

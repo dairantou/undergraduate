@@ -353,9 +353,10 @@ foreach ($stmt as $row);
 
 			    <h3 class="heading" id="result">採点結果</h3>
 		  		<article>
-				<p><div id="score"></div></p>
+				<p><div id="rating" style="font-size:30px;color:red;font-weight: bold;"></div></p>
+				<p><div id="score" style="font-size:20px;"></div><div id="scoreco"></div></p>
 				</article>
-
+				<p><div id="rating"></div></p>
 				<h3 class="heading">フィードバックコメント</h3>
 		  		<article>
 				<p><div id="div2"></div></p>
