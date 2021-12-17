@@ -60,7 +60,7 @@ foreach ($stmt as $row);
 <![endif]-->
 <script src="js/jquery1.7.2.min.js"></script>
 <script src="js/script.js"></script>
-<script src="simjs.js"></script>
+<script src="simjs.js?v=1.0"></script>
 </head>
 
 <body id="subpage">
