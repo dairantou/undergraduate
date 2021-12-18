@@ -19,7 +19,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
 color:#333;
-font-size:small;
+font-size:16px;
+
 font-family:verdana,"ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN","メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
 line-height:1.5;
 -webkit-text-size-adjust: none;
@@ -453,7 +454,8 @@ margin-right:10px;
 }
 
 ul.list li{
-font-size:12px;
+/*font-size:12px;*/
+font-size:16px;
 line-height:1.35;
 }
 
@@ -493,7 +495,8 @@ text-align:left;
 #footer .logo{font-size:18px;}
 
 #footer .info .tel,#footer .info .tel span,#footer #info .open{
-font-size:12px;
+/*font-size:12px;*/
+font-size:16px;
 color:#333;
 }
 
@@ -507,7 +510,7 @@ ul.footnav li{
 float:left;
 margin-bottom:10px;
 padding:0 7px 0 8px;
-font-size:11px;	
+font-size:13px;	
 border-right:1px solid #b6b6b6;
 }
 
@@ -523,7 +526,7 @@ clear:both;
 padding:5px;
 text-align:center;
 font-style:normal;
-font-size:12px;
+font-size:14px;
 color:#5f3700;
 /*background:#dbdbdb;*/
 }
@@ -565,7 +568,7 @@ color:#5f3700;
 	display: block;
 	text-align: center;
 	_float:left;
-	font-size:13px;
+	font-size:16px;
 	width:159px;
 	/*width:180px;*/
 	/*height:45px;*/

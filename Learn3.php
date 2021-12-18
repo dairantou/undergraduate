@@ -92,7 +92,7 @@ foreach ($stmt as $row);
 				<li class="active"><a href="Learn.php"><strong>家庭内備蓄品の紹介</strong><span></span></a></li>
 				<!--<li><a href="Mypage.php"><strong>マイページ</strong><span>Mypage</span></a></li>-->
 				<li><a href="Simulationcp.php"><strong>シミュレーション</strong><span></span></a></li>
-				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート/お問い合わせ</strong><span></span></a></li>
+				<li class="last"><a href="Questionnaire-Contact.php"><strong>アンケート</strong><span></span></a></li>
 				<li><a href="logout.php"><strong>ログアウト</strong><span></span></a></li>	
 			</ul> 
     </div>
