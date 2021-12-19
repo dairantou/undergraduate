@@ -677,6 +677,7 @@ color:#5f3700;
 	#slogan-h2-left{
 		position: relative;
 		left: -8px;
+		top: -5px;
 	}
 }
 
@@ -842,8 +843,8 @@ color:#5f3700;
 }
 
 
-/* スマートフォン 縦(ポートレート) */
-@media only screen and (max-width:480px){
+/* スマートフォン 縦(ポートレート) 480から500に変えた*/
+@media only screen and (max-width:500px){
 	.grid{width:100%;}
 	.box img{max-width:200px;}
 	#mainBanner h2{
@@ -860,7 +861,7 @@ color:#5f3700;
 		top: 15px;
 		left: -8px;
 	}
-
+	
 	#self-help-slogan p{
 		position: relative;
 		top: 15px;

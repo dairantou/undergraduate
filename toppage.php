@@ -127,7 +127,7 @@ foreach ($stmt as $row);
 			<div class="box">
       	<img src="images/study.jpg" width="260" height="113" alt="">
 				<h3>家庭内備蓄品の紹介</h3>
-				<p>被災時に自宅避難で必要となる家庭内備蓄品を紹介します。</p><br>
+				<p>被災時に自宅避難で必要となる家庭内備蓄品を紹介します。</p><br><br>
 				<p class="readmore"><a href="Learn.php">詳細を確認する</a></p>
       </div>
 		</article>

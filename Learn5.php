@@ -110,14 +110,14 @@ foreach ($stmt as $row);
 			<img src="images/mainimg2.jpg" width="680" height="140" alt="">
     	<div class="slogan">
 				<div class="mobile_hide">
-				<h2>家庭内備蓄品にはどんなものがあるの？</h2>
-				<p>被災時に自宅避難で必要となる家庭内備蓄品について学んでいきます。</p>
+				<h2>家庭内備蓄品の紹介</h2>
+				<p>被災時に自宅避難で必要となる家庭内備蓄品を紹介します。</p>
 				</div>
 
 				<div class="pc_hide">
 				<div id="learn-slogan">
-				<h2>家庭内備蓄品にはどんなものがあるの？</h2>
-				<p>被災時に自宅避難で必要となる家庭内備蓄品について<br>学んでいきます。</p>
+				<h2>家庭内備蓄品の紹介</h2>
+				<p>被災時に自宅避難で必要となる家庭内備蓄品を<br>紹介します。</p>
 				</div>
 				</div>
 		</div>

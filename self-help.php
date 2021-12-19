@@ -113,7 +113,7 @@ foreach ($stmt as $row);
 		<div class="mobile_hide">
     	<div class="slogan">
 				<h2 id="slogan-h2-left">「自助」とは？</h2>
-				<p>災害の被害を小さくするために大切な「自助」という考え方とは?</p>
+				<p>災害の被害を小さくするために大切な「自助」という考え方とは？</p>
 				<p id="slogan-p-left">「自助」と家庭内備蓄品の関連性を学んでいきます。</p>
 		</div>
 		</div>
