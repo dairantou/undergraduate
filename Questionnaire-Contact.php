@@ -143,7 +143,7 @@ foreach ($stmt as $row);
 		<h3 class="heading" id="questionnaire">アンケート</h3>
 		<article>
 			下記リンクより、アンケートにご協力お願いします。<br>
-			<a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ移動(Google フォーム)</a>
+			<a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/yHkhbVW8QXhectiG6" target="_blank" rel="noopener noreferrer">アンケートページへ移動(Google フォーム)</a>
 		</article>
 	</section>
 

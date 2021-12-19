@@ -181,7 +181,7 @@ foreach ($stmt as $row);
 		<article>
 			<ul>
 				<li>本システムの利用後、アンケート評価にご協力お願いいたします。(一度のみ回答お願いします。)</li>
-				<li><a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/ATnmZm3mD26PotKv8" target="_blank" rel="noopener noreferrer">アンケートページへ移動(Google フォーム)</a></li>
+				<li><a style="color:#f2a64b;font-weight: bold;" href="https://forms.gle/yHkhbVW8QXhectiG6" target="_blank" rel="noopener noreferrer">アンケートページへ移動(Google フォーム)</a></li>
 			</ul>
 		</article>
 		</aside>
