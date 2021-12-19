@@ -108,7 +108,7 @@ foreach ($stmt as $row);
   
   	<!-- メイン画像 -->
 	<div id="mainBanner">
-			<img src="images/mainimg2.jpg" width="680" height="140" alt="">
+			<img src="images/mainimg2.jpg?v=1.0" width="680" height="140" alt="">
 
 		<div class="mobile_hide">
     	<div class="slogan">

@@ -107,8 +107,7 @@ foreach ($stmt as $row);
 	<div id="mainBanner">
 		<img src="images/mainimg.jpg" alt="">
     <div class="slogan">
-			<h2>家庭内備蓄品について学べるサイトです</h2>
-			<!-- <p>ホームページサンプルは自然との調和を目指します</p> -->
+			<h2 style="position: relative;top: 13px;">家庭内備蓄品について学べるサイトです</h2>
 		</div>
 	</div>
 	<!-- / メイン画像 -->
