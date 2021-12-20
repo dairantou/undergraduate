@@ -134,7 +134,7 @@ foreach ($stmt as $row);
     	<h3 class="heading" id="contact">お問い合わせ</h3>
       <article>
 			<p>お問い合わせは下記メールアドレスにお願いします。</p>
-			<p>メールアドレス：sirayuu0419[at]gmail.com([at]を@に変えてください)</p>
+			<p>メールアドレス：s1810339[at]edu.cc.uec.ac.jp([at]を@に変えてください)</p>
 		  </form>
 		</article>
 	</section>
@@ -190,7 +190,7 @@ foreach ($stmt as $row);
 	</div>
 </footer>
 	<!-- / フッター -->
-	<address>Copyright(c) 2021 家庭内備蓄品について学ぼう All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
+	<address>Copyright(c) 2021 山本佳世子研究室 All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></address>
 
 </body>
 </html>
