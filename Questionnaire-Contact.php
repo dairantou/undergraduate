@@ -134,7 +134,7 @@ foreach ($stmt as $row);
     	<h3 class="heading" id="contact">お問い合わせ</h3>
       <article>
 			<p>お問い合わせは下記メールアドレスにお願いします。</p>
-			<p>メールアドレス：s1810339[at]edu.cc.uec.ac.jp([at]を@に変えてください)</p>
+			<p>メールアドレス：s2230074[at]edu.cc.uec.ac.jp([at]を@に変えてください)</p>
 		  </form>
 		</article>
 	</section>
