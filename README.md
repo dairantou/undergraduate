@@ -17,8 +17,8 @@
 PHP,JavaScript,HTML,CSS,SQL
 
 **作成した環境**
-データベース---MySQL
-テキストエディタ---VSCode
+データベース---MySQL  
+テキストエディタ---VSCode  
 PaaS---Heroku
 
 
