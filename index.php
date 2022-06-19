@@ -6,7 +6,7 @@ function h($s){
 }
 
 session_start();
-//この場面が表示されることはないはずだが念のため記述
+//ログアウトせずブラウザバックしたときに表示される
 //issetは指定した変数がnullじゃないときtrueを返す
 if (isset($_SESSION['EMAIL'])) {
   echo 'ようこそ' .  h($_SESSION['EMAIL']) . "さん<br>";
