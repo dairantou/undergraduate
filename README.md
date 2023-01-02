@@ -2,7 +2,8 @@
 
 **システムの概要**  
 このシステムは、地震発生時に自宅で避難生活を送る際に必要となる家庭内備蓄品について学習できるwebシステムです。  
-作成したシステムはherokuにデプロイしています。こちらのURLからシステムを利用できます。https://stockpilestudy.herokuapp.com/  
+~~作成したシステムはherokuにデプロイしています。こちらのURLからシステムを利用できます。https://stockpilestudy.herokuapp.com/~~
+→heroku有料化に伴い学内のサーバに移行しました。こちらのURLからシステムを利用できます。http://www.si.is.uec.ac.jp/stockpilestudy/
 システムの利用にはユーザ登録が必要です。ユーザ登録が面倒な方は以下のテスト用アカウントでログインしてください。  
 メアド:1@edu.cc.uec.ac.jp パスワード:pooandpoo1
 
@@ -17,7 +18,7 @@ PHP,JavaScript,HTML,CSS,SQL
 **作成した環境**  
 データベース---MySQL  
 テキストエディタ---VSCode  
-PaaS---Heroku
+PaaS---~~Heroku~~→学内サーバ
 
 
 
