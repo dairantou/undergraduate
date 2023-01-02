@@ -5,12 +5,6 @@ require_once('config.php');
 try {
   $pdo = new PDO(DSN, DB_USER, DB_PASS);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $pdo->exec("create table if not exists userDeta(
-      id int not null auto_increment primary key,
-      email varchar(255) unique,
-      password varchar(255) ,
-      created timestamp not null default current_timestamp
-    )");
   //catch (Exception $e)はエラーがあったときに括弧内の処理を行う
 } catch (Exception $e) {
   echo $e->getMessage() . PHP_EOL;
@@ -26,8 +20,7 @@ session_start();
 
 // SELECT文を変数に格納
 //php内のsqlで変数を使うときは..でつなぐ。例　"SELECT * FROM テーブル名 WHERE  カラム名 = '".変数名."'";
-//$sql = "SELECT * FROM UserDeta WHERE  email = '".h($_SESSION['EMAIL'])."'";
-$sql = "SELECT * FROM UserDeta WHERE  email = '".$_SESSION['EMAIL']."'";
+$sql = "SELECT * FROM myuserdeta WHERE  email = '".$_SESSION['EMAIL']."'";
 // SQLステートメントを実行し、結果を変数に格納
 $stmt = $pdo->query($sql);
  

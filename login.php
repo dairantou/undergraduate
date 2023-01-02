@@ -26,7 +26,7 @@ return false;
 //DB内でPOSTされたメールアドレスを検索
 try {
   $pdo = new PDO(DSN, DB_USER, DB_PASS);
-  $stmt = $pdo->prepare('select * from userDeta where email = ?');
+  $stmt = $pdo->prepare('select * from myuserdeta where email = ?');
   $stmt->execute([$_POST['email']]);
   $row = $stmt->fetch(PDO::FETCH_ASSOC);
 } catch (\Exception $e) {
@@ -34,7 +34,7 @@ try {
 }
 //emailがDB内に存在しているか確認
 if (!isset($row['email'])) {
-  echo "<script type='text/javascript'>alert('メールアドレス又はパスワードが間違っています。');</script>";
+  echo "<script type='text/javascript'>alert('未登録のメールアドレスが入力されています。');</script>";
   //セッション変数のクリア
 $_SESSION = array();
 //セッションクッキーも削除

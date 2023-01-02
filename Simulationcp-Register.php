@@ -4,12 +4,6 @@ require_once('config.php');
 try {
   $pdo = new PDO(DSN, DB_USER, DB_PASS);
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $pdo->exec("create table if not exists userDeta(
-      id int not null auto_increment primary key,
-      email varchar(255) unique,
-      password varchar(255) ,
-      created timestamp not null default current_timestamp
-    )");
   //catch (Exception $e)はエラーがあったときに括弧内の処理を行う
 } catch (Exception $e) {
   echo $e->getMessage() . PHP_EOL;
@@ -46,8 +40,7 @@ try {
   $ans17 = $_POST['q17'];
 
 
-  $stmt = $pdo->prepare("UPDATE userDeta SET ans1= :ans1, ans2= :ans2, ans3= :ans3, ans4= :ans4, ans5= :ans5, ans6= :ans6, ans7= :ans7,ans8= :ans8,ans9= :ans9, ans10= :ans10, ans11= :ans11, ans12= :ans12, ans13= :ans13, ans14= :ans14, ans15= :ans15, ans16= :ans16,ans17= :ans17 WHERE email= :email");
-  //$stmt = $pdo->prepare("UPDATE userDeta SET ans1= :ans1, ans2= :ans2, ans3= :ans3, ans4= :ans4, ans5= :ans5, ans6= :ans6 WHERE email= :email");
+  $stmt = $pdo->prepare("UPDATE myuserdeta SET ans1= :ans1, ans2= :ans2, ans3= :ans3, ans4= :ans4, ans5= :ans5, ans6= :ans6, ans7= :ans7,ans8= :ans8,ans9= :ans9, ans10= :ans10, ans11= :ans11, ans12= :ans12, ans13= :ans13, ans14= :ans14, ans15= :ans15, ans16= :ans16,ans17= :ans17 WHERE email= :email");
   $stmt->bindParam( ':email', $email);
   $stmt->bindParam( ':ans1', $ans1);
   $stmt->bindParam( ':ans2', $ans2);

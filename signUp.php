@@ -1,16 +1,10 @@
 <?php
 require_once('config.php');
-//データベースへ接続、テーブルがない場合は作成
+//データベースへ接続
 try {
   $pdo = new PDO(DSN, DB_USER, DB_PASS);
+  //エラーがあったときにcatch (Exception $e)の処理を行う
   $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $pdo->exec("create table if not exists userDeta(
-      id int not null auto_increment primary key,
-      email varchar(255) unique,
-      password varchar(255) ,
-      created timestamp not null default current_timestamp
-    )");
-  //catch (Exception $e)はエラーがあったときに括弧内の処理を行う
 } catch (Exception $e) {
   echo $e->getMessage() . PHP_EOL;
 }
@@ -84,10 +78,8 @@ return false;
 try {
   $sex = $_POST['sex'];
   $age = $_POST['age'];
-  $stmt = $pdo->prepare("insert into userDeta(email, password, sex, age) value(?, ?, ?, ?)");
-  //$stmt = $pdo->prepare("insert into userDeta(email, password) value(?, ?)");
+  $stmt = $pdo->prepare("insert into myuserdeta(email, password, sex, age) value(?, ?, ?, ?)");
   $stmt->execute([$email, $password, $sex, $age]);
-  //$stmt->execute([$email, $password]);
   echo "<script type='text/javascript'>alert('新規アカウントが正常に登録されました。');</script>";
   //セッション変数のクリア
 $_SESSION = array();
