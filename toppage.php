@@ -79,7 +79,7 @@
       <div class="box">
 				<img src="images/study.jpg" width="260" height="113" alt="">
 				<h3 id="box-h3-left">「自助」とは？</h3>
-				<p>災害の被害を小さくするために大切な「自助」という考え方とは?「自助」と家庭内備蓄品の関連性を説明します。</p>
+				<p>災害の被害を小さくするために大切な「自助」という考え方とは?<br>「自助」と家庭内備蓄品の関連性を説明します。</p>
 				<p class="readmore"><a href="self-help.php">詳細を確認する</a></p>
       </div>
 		</article>
