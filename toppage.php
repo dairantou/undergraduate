@@ -118,13 +118,13 @@
 			<!-- / ロゴ -->
 		</div>  
 		<!-- / 左側 -->
-		<!-- 右側 ナビゲーション -->
+		<!-- 右側のナビゲーション -->
 		<ul class="footnav">
 			<li><a href="Questionnaire-Contact.php#about">本サイトについて</a></li>
 			<li><a href="Questionnaire-Contact.php#contact">お問い合わせ</a></li>
 			<li><a href="logout.php">ログアウト</a></li>
 		</ul>
-		<!-- / 右側 ナビゲーション -->
+		<!-- / 右側のナビゲーション -->
 	</div>
 </footer>
 	<!-- / フッター -->

@@ -7,7 +7,7 @@ if (isset($_SESSION["EMAIL"])) {
 } else {
   $output = 'SessionがTimeoutしました。';
 }
-//セッション変数のクリア
+//セッション変数をクリア
 $_SESSION = array();
 //セッションクッキーも削除
 if (ini_get("session.use_cookies")) {
